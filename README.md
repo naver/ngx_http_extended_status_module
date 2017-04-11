@@ -68,7 +68,7 @@ location of this source code. Running `make` performs the actual compilation and
 running `make install` installs the compiled files to your system.
 
 ```
-./configure --add-module=dir/path/to/nginx_extended_status_module
+./configure --add-module=dir/path/to/extended_status_module
 make
 make install
 ```
