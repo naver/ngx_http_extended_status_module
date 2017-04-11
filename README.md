@@ -7,33 +7,6 @@ Nginx `status` module with finer details.
 installation, including patching the Nginx source and compiling Nginx with this
 module, as well as configuration instructions and examples, can be found below.*
 
-Moving forward, we have decided to *heavily fork* this module into its own, new,
-and distinct codebase at
-[scribenet/nginx-servats-module](https://github.com/scribenet/nginx-servats-module).
-
-This new repository will begin as simply a re-write of the code, with the
-following set of requirements:
-
-- Apply a rigid coding standard through its implementation.
-- The addition of a simple testing framework that allows for Travis continuous
-  integration.
-- A brand-new internal theme (suitable for 2015), that is user-customizable.
-- After reaching feature-parity with its predecessor, it will break patch
-  compatibility by offing additional features and capabilities outside the scope
-  currently offer by the `extended_status` module.
-
-If you have no interest in the goals outlined above and would simply like the
-original module, moving forward you will find the latest code at
-[nginx-modules/ngx_http_extended_status_module](https://github.com/nginx-modules/ngx_http_extended_status_module).
-
-Otherwise, we invite you to take a look at the development being done on the new
-module at [scribenet/nginx-servats-module](https://github.com/scribenet/nginx-servats-module),
-including the addition of [Travis CI support](https://nginx-servats-module.docs.scribe.tools/ci),
-beautiful Read the Docs generated [documentation](https://nginx-servats-module.docs.scribe.tools/docs),
-as well as the new look-and-feel.
-
-*The original contents of this README.md follow.*
-
 # Contents
 
 1. [Installation](#installation)
