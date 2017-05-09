@@ -532,7 +532,7 @@ index 536fdf8..73394f9 100644
      }
  
 diff --git a/src/http/ngx_http_request.c b/src/http/ngx_http_request.c
-index 6ff7903..41f4ce7 100644
+index 6ff7903..aae3de9 100644
 --- a/src/http/ngx_http_request.c
 +++ b/src/http/ngx_http_request.c
 @@ -605,12 +605,16 @@ ngx_http_create_request(ngx_connection_t *c)
@@ -546,7 +546,7 @@ index 6ff7903..41f4ce7 100644
      (void) ngx_atomic_fetch_add(ngx_stat_requests, 1);
  #endif
  
-+#if (NGX_STAT_EXTENDED || NGX_STAT_EXTENDED)
++#if (NGX_STAT_EXTENDED)
 +    my_worker->mode = SERVER_BUSY_READ;
 +#endif
 +
