@@ -31,7 +31,8 @@ files* provided for various versions of Nginx.
 - [`1.5.2`](extended_status-1.5.2.patch)
 - [`1.6.2`](extended_status-1.6.2.patch)
 - [`1.7.8`](extended_status-1.7.8.patch)
-- [`1.7.10`](extended_status-1.7.10.patch)
+- [`1.10.1`](extended_status-1.10.1.patch)
+- [`1.11.3`](extended_status-1.11.3.patch)
 
 ### Patching the Nginx source
 
@@ -133,7 +134,7 @@ location = /tablesort.min.js {
 The following individuals authored the bulk of this module:
 
 * Youngseok Choi <zealot33@gmail.com>
-* 李金虎 <beagem@163.com>
+* �쓮�뇫�솊 <beagem@163.com>
 * Heumgeun Kang <heumgeun.kang@nhn.com> (original author)
 
 A list of all the individuals who have contributed can be found by visiting the
