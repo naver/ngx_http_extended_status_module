@@ -338,7 +338,7 @@ put_connection_stat(ngx_http_request_t  *r)
     char  s_reading [MAX_DIGITS] ;
     char  s_writing [MAX_DIGITS] ;
     char  s_free [MAX_DIGITS] ;
-    ngx_atomic_int_t  active, waiting, reading, writing ;
+    ngx_atomic_int_t  waiting, reading, writing ;
     worker_score  *ws;
     ngx_chain_t  * c ;
     ngx_buf_t  * b ;
@@ -346,7 +346,6 @@ put_connection_stat(ngx_http_request_t  *r)
     int  free = 0 ;
     u_int32_t  i ;
 
-    active = *ngx_stat_active ;
     waiting = *ngx_stat_waiting ; 
     reading = *ngx_stat_reading ;
     writing = *ngx_stat_writing ;
