@@ -33,6 +33,7 @@ files* provided for various versions of Nginx.
 - [`1.7.8`](extended_status-1.7.8.patch)
 - [`1.10.1`](extended_status-1.10.1.patch)
 - [`1.11.3`](extended_status-1.11.3.patch)
+- [`1.12.1`](extended_status-1.12.1.patch)
 
 ### Patching the Nginx source
 
